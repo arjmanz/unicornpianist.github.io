@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Piano Star - 8-Year-Old Pianist</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-size: cover;
+            background-color: #f8f9fa;
+        }
+
+        /* Elegant Navbar */
+        .navbar {
+            background-color: #343a40;
+        }
+
+        .navbar-brand,
+        .nav-link {
+            color: #fff !important;
+            font-size: 1.2rem;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+
+        .navbar-brand:hover,
+        .nav-link:hover {
+            color: #f8f9fa !important;
+        }
+
+        /* Section Styling */
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: 600;
+            text-align: center;
+            margin-bottom: 40px;
+            color: #343a40;
+        }
+
+        /* Bio Section */
+        .bio-card {
+            background-color: #ffffff;
+            border: none;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 40px;
+        }
+
+        .bio-card img {
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .bio-text {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: #6c757d;
+        }
+
+        /* Image Gallery */
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Blog/Vlog Section */
+        .card {
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .card-body {
+            padding: 20px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #343a40;
+            color: #f8f9fa;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        footer a {
+            color: #f8f9fa;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">Unicorn Pianist</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#bio">Bio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#blogs">Blogs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Bio Section -->
+    <section id="bio" class="py-5">
+        <div class="container">
+            <h2 class="section-title">Meet Our Piano Star</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8 bio-card">
+                    <img src="./DSC_6844.JPG" class="img-fluid" alt="Piano Star" style="width:200px ;">
+                    <p class="bio-text">At just 8 years old, Yvonne has already mesmerized audiences with her
+                        incredible piano skills. She began playing at the age of 4 and has since performed at various
+                        recitals and events. Her passion for music continues to grow, and she loves to share her
+                        performances with the world.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-5">
+        <div class="container">
+            <h2 class="section-title">Performance Gallery</h2>
+            <div class="gallery">
+                <div class="col-md-4">
+                    <iframe width="420" height="315" src="https://www.youtube.com/embed/l5gRxCHuWkw">
+                    </iframe>
+                </div>
+                <div class="col-md-4">
+                    <iframe width="420" height="315" src="https://www.youtube.com/embed/umLARtTf-yE">
+                    </iframe>
+                </div>
+                <div class="col-md-4">
+                    <iframe width="420" height="315" src="https://www.youtube.com/embed/Aer3Cgg2B6I">
+                    </iframe>
+                </div>
+                <div class="col-md-4">
+                    <iframe width="420" height="315" src="https://www.youtube.com/embed/itJwe33MvZk">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog/Vlog Section -->
+    <section id="blogs" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title">Vlogs</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img id="imgVlog1" class="card-img-top" alt="Vlog 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Vlog Episode 1: First Concert</h5>
+                            <p class="card-text">[Comming soon...]</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img id="imgVlog2" class="card-img-top" alt="Vlog 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Tips for Young Musicians</h5>
+                            <p class="card-text">[Comming soon...]</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img id="imgVlog3" src="https://source.unsplash.com/400x300/?piano,recital" class="card-img-top"
+                            alt="Vlog 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Learning a New Song</h5>
+                            <p class="card-text">[Comming soon...]</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4">
+        <div class="container">
+            <p>© 2024 Piano Star. All rights reserved.</p>
+            <p>Follow us on <a href="#">Instagram</a> | <a href="#">YouTube</a></p>
+        </div>
+    </footer>
+    <script>
+
+        async function fetchUnsplashImageUrl(query) {
+            const accessKey = 'uU7EPi3u09BOzOlFTKtobb5hDwOowZXUJNt9hNhfcv4'; // Replace with your Unsplash API Access Key
+            const apiUrl = `https://api.unsplash.com/photos/${query}`;
+
+            try {
+                const response = await fetch(apiUrl);
+                const data = await response.json();
+                const imageUrl = data.urls.regular;
+                return imageUrl;
+            } catch (error) {
+                console.error('Error fetching the image from Unsplash:', error);
+            }
+        }
+
+        function cacheImage(imgId, url) {
+            const cacheData = {
+                url: url,
+                timestamp: new Date().getTime() // Current timestamp in milliseconds
+            };
+            localStorage.setItem(imgId, JSON.stringify(cacheData)); // Store in localStorage
+        }
+
+        function getCachedImage(imgId) {
+            const cacheData = localStorage.getItem(imgId);
+            if (cacheData) {
+                const { url, timestamp } = JSON.parse(cacheData);
+                const oneDay = 1 * 60 * 60 * 1000; // 24 hours in milliseconds
+                const now = new Date().getTime();
+
+                if ((now - timestamp) < oneDay) {
+                    return url; // Return the cached image if it's less than a day old
+                }
+            }
+            return null; // Return null if no valid cache exists
+        }
+
+        const getImageUrl = async (imgId) => {
+            let result = "";
+            var cachedImageUrl = getCachedImage(imgId);
+
+            if (cachedImageUrl) {
+                result = cachedImageUrl;
+            } else {
+                const newUrl = await fetchUnsplashImageUrl(getUnsplashQuery(imgId));
+                cacheImage(imgId, newUrl); // Cache the new image
+                result = newUrl;
+            }
+
+            return result;
+        }
+
+        const getUnsplashQuery = (imgId) => {
+            let result = "";
+            const accessKey = 'uU7EPi3u09BOzOlFTKtobb5hDwOowZXUJNt9hNhfcv4'; // Replace with your Unsplash API Access Key            
+
+            switch (imgId) {
+                case "bodyBg":
+                    result = "F8E2tks5N04?"
+                    break;
+                case "imgHeader":
+                    //result = "35fycLrg6U8?"
+                    result = "random/?query=girl,pianist&"
+                    break;
+                case "imgVlog1":
+                    //result = "35fycLrg6U8?"
+                    result = "IWpom5CR2_w?"
+                    break;
+                case "imgVlog2":
+                    //result = "35fycLrg6U8?"
+                    result = "IWpom5CR2_w?"
+                    break;
+                case "imgVlog3":
+                    //result = "35fycLrg6U8?"
+                    result = "IWpom5CR2_w?"
+                    break;
+            }
+            return `${result}client_id=${accessKey}`;
+        }
+
+        window.onload = async function () {
+            document.body.style.backgroundImage = `url(${await getImageUrl('bodyBg')})`;
+            document.getElementById('imgVlog1').src = await getImageUrl('imgVlog1');
+            document.getElementById('imgVlog2').src = await getImageUrl('imgVlog2');
+            document.getElementById('imgVlog3').src = await getImageUrl('imgVlog3');
+        };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
